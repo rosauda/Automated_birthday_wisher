@@ -32,7 +32,7 @@ try:
             information_name = information["name"].iloc[i]
             information_email = information["email"].iloc[i]
 
-            # ---------------------------- SELECTING RANDOM LETTER ------------------------------- #
+            # ---------------------------- CHOOSING AND EDITING RANDOM LETTER ------------------------------- #
 
             letters_list = ["letter_1.txt", "letter_2.txt", "letter_3.txt"]
             random_letter = random.choice(letters_list)
