@@ -43,7 +43,6 @@ try:
                 letter_edited = letter_edited.read()
                 letter_edited = letter_edited.replace('[NAME]', f'{information_name}')
                 letter.close()
-                print(letter_edited)
 
             # ---------------------------- SENDING EMAIL ------------------------------- #
 
